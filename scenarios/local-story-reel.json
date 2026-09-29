@@ -1,0 +1,15 @@
+{
+  "name": "Reel about a real local story, researched live",
+  "agent": "Avatar Video Creator",
+  "option": "Reel about a local story",
+  "brief": "The agent is Lawrence Moran with Real. Make one short avatar video reel for home buyers in the city of the researched story.\nStyle: bold-news. Voice: the stock presenter voice. Length: about 20 seconds.\nLeo fact-checks claims and may ask for the city or ask you to confirm its script; those steps can be skipped when the first message already answers them. Before rendering it shows a \"Needs your approval\" card with Approve (this spends money): approve when the plan on that card matches this scenario. Once the video is ready it shows a card with Complete Task.",
+  "research": {},
+  "allowedButtons": [
+    "Approve",
+    "Complete Task"
+  ],
+  "expect": {
+    "artifactFormat": "mp4",
+    "successCriteria": "The finished reel is about the researched local story, uses only its sourced facts, and was produced as a video."
+  }
+}

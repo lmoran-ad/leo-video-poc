@@ -1,0 +1,16 @@
+{
+  "name": "Cheyenne Frontier Days local story reel",
+  "agent": "Avatar Video Creator",
+  "option": "Reel about a local story",
+  "brief": "The agent is Lawrence Moran with Real, based in Cheyenne, Wyoming. Make one short avatar video reel for local home buyers.\nTopic: Cheyenne Frontier Days. The only facts you may use: it was first held in Cheyenne in 1897, and it is nicknamed the \"Daddy of 'em All\". Source: https://www.cfdrodeo.com. Do not claim it happens every year (it was cancelled in 2020) or add any other dates, numbers or claims.\nStyle: bold-news. Voice: the stock presenter voice. Length: about 20 seconds.\nLeo fact-checks claims and may ask for the city or ask you to confirm its script; those steps can be skipped when the first message already answers them. Before rendering it shows a \"Needs your approval\" card with Approve (this spends money): approve when the plan on that card matches this scenario. Once the video is ready it shows a card with Complete Task.",
+  "input": "Make a reel of me on a story people in my area are talking about. Location: Cheyenne, Wyoming. Story: Cheyenne Frontier Days, known as the \"Daddy of 'em All\", was first held in Cheyenne in 1897 (source: https://www.cfdrodeo.com). Use this script exactly as written. I approve it as-is: \"Did you know Cheyenne Frontier Days was first held right here in Cheyenne back in 1897? They call it the Daddy of 'em All, and it's a big part of why people fall in love with this town. Thinking about calling Cheyenne home? I'd love to help you find your place. I'm Lawrence Moran with Real.\" Use the bold-news style and the stock presenter voice. Do not ask follow-up questions; create the video.",
+  "reply": "Location: Cheyenne, Wyoming. The facts come from https://www.cfdrodeo.com. I approve the script as-is, with the bold-news style and the stock presenter voice. Please create the video now.",
+  "allowedButtons": [
+    "Approve",
+    "Complete Task"
+  ],
+  "expect": {
+    "artifactFormat": "mp4",
+    "successCriteria": "The finished reel is about Cheyenne Frontier Days in Cheyenne, Wyoming, uses only the allowed facts (first held in 1897, the \"Daddy of 'em All\"), and was produced as a video."
+  }
+}

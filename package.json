@@ -1,0 +1,27 @@
+{
+  "name": "leo-video-poc",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "record": "node record.mjs",
+    "test": "playwright test",
+    "test:free": "playwright test --project=unit --project=api --project=setup --project=leo",
+    "test:totp": "playwright test --project=unit totp",
+    "test:approvals": "playwright test --project=unit leoApi",
+    "test:login-ui": "playwright test --project=setup",
+    "test:login-api": "playwright test --project=api -g \"logs in\"",
+    "test:pre-send": "playwright test --project=setup --project=leo -g \"log in to Bolt|ready to send\"",
+    "test:claude": "playwright test --project=claude",
+    "test:claude-decisions": "playwright test --project=claude --grep-invert \"real local story\"",
+    "test:claude-research": "playwright test --project=claude -g \"real local story\"",
+    "paid:ui": "node paid.mjs ui",
+    "paid:api": "node paid.mjs api",
+    "paid:ai": "node paid.mjs ai",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.129.0",
+    "@playwright/test": "1.59.1",
+    "zod": "^4.6.5"
+  }
+}
